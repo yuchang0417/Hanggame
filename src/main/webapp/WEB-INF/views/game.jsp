@@ -15,30 +15,12 @@
 		   if you want to start, you can just click the "Start A New Game" to start </p>
      
 		<p>
-			<a id="newGameButton" class="btn btn-primary btn-lg"  href="games">Start A New Game</a>
+			<a id="newGameButton" class="btn btn-primary btn-lg"  href="games">Cick to Begin Game</a>
 			<span id="stats"></span>
 		</p>
 	</section>
 	
-	<section id="gamePanel" class="panel panel-default hidden">
-		<div class="panel-body">
-			<span id="caption">You have {10} tries. Guess this {7} letter word:</span> 
-			<div id="currentGuess">G__GLE</div>
-			
-			<div class="inputWrapper">
-				<input id="letterInput" type="text" placeholder="Enter your letter here"/>
-				<a id="guessButton" class="btn btn-primary">Guess</a>
-			</div>
-		</div>
-		
-		<div>
-			<p id="message"></p>
-			<img id="hangmanImage" src="resources/img/0.png" alt="hangman image"/>
-			<div><small>Picture taken from http://www.thegamegal.com/ and modified for this app</small></div>
-		</div>
-		
-		
-	</section>
+	
 	
 	
 	

@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 
 <script
-	src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	src="resources/js/jquery-3.2.1.min.js"></script>
 <script src="resources/js/myhand.js"></script>
 
 <link rel="stylesheet" href="resources/css/bootstrap.css" />
@@ -21,16 +21,25 @@
 
 		<div class='col-md-6'>
 			<section class="jumbotron">
-			<h1>Welcome to our HangGame!</h1>
+			<h2>Here is the rules</h2>
 			<p>
-				This is very a game for Guess, you will have ten times to win </br> if
-				you want to start, you can just click the "Start A New Game" to
-				start
+				
+- When the game is started, Plese fill word int the  empty field .</br>
+
+- When the player guesses a letter correctly, letter will appear</br>
+
+- When the player guesses a letter incorrectly, a piece of a gallow with a</br>
+  hanging man is drawn.</br>
+
+- After 10 incorrect guesses, the game is over and the player lost. </br>
+
+- If all fields are filled with their letter before 10 incorrect guesses, the
+  player has won the game.</br>
 			</p>
 
 			<p>
 				<a id="newGameButton" class="btn btn-primary btn-lg"
-					onclick='showGame()' >Start A New Game</a> <span
+					onclick='showGame()' >Click TO Play</a> <span
 					id="stats"></span>
 			</p>
 			</section>
@@ -61,10 +70,7 @@
 	<div>
 		<p id="message"></p>
 		<img id="hangmanImage" src="resources/img/0.png" alt="hangman image" />
-		<div>
-			<small>Picture taken from http://www.thegamegal.com/ and
-				modified for this app</small>
-		</div>
+		
 	</div>
 	</section>
 		</div>

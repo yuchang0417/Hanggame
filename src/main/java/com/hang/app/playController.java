@@ -48,7 +48,7 @@ public class playController {
         
     	
     	// Create a game with a current id when need extentinon 
-    	Game newGame = new Game(1, "catast");
+    	Game newGame = new Game(1, "guesses");
     	sucess = 0; 
     	fail = 0; 
     	
@@ -71,15 +71,7 @@ public class playController {
     
     
     
-//    
-//    // Get an existing game resource
-//    @RequestMapping(value = "/game/{id}", method=RequestMethod.GET)
-//    public @ResponseBody Game getGame(@PathVariable int id) {
-//    	Game game = (Game)meo.memcachedClient.get(String.valueOf(id));    	
-//    	return game;
-//    }
-//    
-//    
+  
     // Updates a game resource. This is the part where the player makes guesses.
     @RequestMapping(value = "/guess",method=RequestMethod.GET)
     @ResponseBody
@@ -122,7 +114,7 @@ public class playController {
     			fail++; 
     		}
     		int id = game.getId() +1; 
-    		Game newgame = new Game(id ,"catast" );
+    		Game newgame = new Game(id ,"guesses" );
     		
     		newgame.setSucess(sucess);
         	newgame.setFail(fail);
