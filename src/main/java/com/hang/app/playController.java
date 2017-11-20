@@ -34,13 +34,11 @@ import com.hang.game.memcache;
 public class playController {
 	
     private @Autowired ServletContext servletContext;
-    memcache meo = new memcache("34.205.78.200",11211);
+    memcache meo = new memcache("52.11.35.207",11211);
     int sucess, fail; 
     
    // static memcachedClient client = meo.memcachedClient;
- // Creates a new game resource
-    
-    
+ // Creates a new game resource   
     
     
     @RequestMapping(value = "/games",method=RequestMethod.GET)
@@ -105,7 +103,7 @@ public class playController {
 	        result = g.toJson(game);
 	    	//model.addAttribute("game", game); 
 	    	
-	//make a new game to replace for none-playable conditions     	
+	        //make a new game to replace for none-playable conditions     	
     	} else{
     		
     		if(game.getState() == 1) {

@@ -46,33 +46,3 @@ function showGame(){
 }
 
 
-//var guessClick = function () {
-//	
-//	var caption= document.getElementById("letterInput");
-//	var letter = caption.value; 
-//	
-//	alert(letter); 
-//	$('#letterInput').val('');
-//	if (letter.length == 0 ) {
-//        window.alert("please do not enter empty factor");
-//        return;
-//    }
-//	
-//	//document.getElementById("letterInput").value = "";
-//	
-//	
-//	$.ajax({
-//		 url : "/guess",
-//		 type : "POST",
-//		 dataType : "JSON",
-//		 data : {"name":letter}, 
-//		 success : function (data) {
-//		  console.log(data)
-//		 }
-//		})
-//
-//	
-//	
-//}
-//	
-	
