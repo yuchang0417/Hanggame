@@ -10,8 +10,8 @@
 </head>
 <body>
      <section class="jumbotron">
-		<h1>Welcome to our HangGame!</h1>
-		<p>This is very a game for Guess, you will have ten times to win </br>
+		<h2>Welcome to our HangGame!</h2>
+		<p>This is very simple game for Guess, you will have ten times to try </br>
 		   if you want to start, you can just click the "Start A New Game" to start </p>
      
 		<p>

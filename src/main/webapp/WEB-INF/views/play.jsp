@@ -21,7 +21,7 @@
 
 		<div class='col-md-6'>
 			<section class="jumbotron">
-			<h2>Here is the rules</h2>
+			<h2>Please Read Rules Before Play</h2>
 			<p>
 				
 - When the game is started, Plese fill word int the  empty field .</br>
@@ -39,7 +39,7 @@
 
 			<p>
 				<a id="newGameButton" class="btn btn-primary btn-lg"
-					onclick='showGame()' >Click TO Play</a> <span
+					onclick='showGame()' >Let's have fun</a> <span
 					id="stats"></span>
 			</p>
 			</section>

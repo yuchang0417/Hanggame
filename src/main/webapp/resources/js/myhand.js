@@ -16,10 +16,11 @@ function play (){
 		 success : function (data) {
 		  console.log(data);
 		  
+		  
 		  if(Number(data.state)==1) {
-			  alert('You have already win the game');
+			  alert('You have already win the game, Enter any character to restart');
 		  } else if(Number(data.state) == -1) {
-			  alert("Sorry, you have lose the game. let's try another one");
+			  alert("Sorry, you have lose the game. Enter any character to restart");
 		  }
 		 
 		  var caption = 'You have {10} tries. Guess still left {'+data.remain+'} letter word:';
